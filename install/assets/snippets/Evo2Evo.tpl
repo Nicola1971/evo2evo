@@ -5,6 +5,7 @@
  *
  * @category	snippet
  * @version    1.0
+ * @author      Author: Nicola Lambathakis http://www.tattoocms.it/
  * @internal	@modx_category Content
  * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  */
@@ -116,7 +117,7 @@ while($row0 = mysqli_fetch_array( $result0 )) {
 
 // parse the chunk and replace the placeholder values.
 // placeholderName => placeholderValue
-$values = array('docid' => $docid, 'pagetitle' => $pagetitle, 'longtitle' => $longtitle, 'description' => $description, 'alias' => $alias, 'introtext' => $introtext, 'content' => $content, 'decoded_content' => $decoded_content, 'flat_content' => $flat_content, 'short_content' => $short_content,'full_content' => $full_content,'menutitle' => $menutitle,'alias' => $alias,'tvvalue' => $tvvalue,'tmplvarid' => $tmplvarid,'imagetv' => $imagetv);
+$values = array('docid' => $docid, 'pagetitle' => $pagetitle, 'longtitle' => $longtitle, 'description' => $description, 'alias' => $alias, 'introtext' => $introtext, 'content' => $content, 'decoded_content' => $decoded_content, 'flat_content' => $flat_content, 'short_content' => $short_content,'full_content' => $full_content,'menutitle' => $menutitle, 'tvvalue' => $tvvalue,'tmplvarid' => $tmplvarid,'imagetv' => $imagetv);
 
 $output =  $output . $modx->parseChunk($evoTpl, $values, '[+', '+]');
 
