@@ -42,7 +42,7 @@ Display content from document id 32, value from image template variable id 2 and
 * menutitle
 * content
 * decoded_content = html_entity_decode content
-* flat_content = strip_tags content
+* flat_content = strip_tags decoded_content
 * short_content = trimmed version of flat_content 
 * full_content = full content with images (remote modx site url (&evo_url) is added to remote images path to avoid broken images) 
 * tvvalue =  value of template variable (&tvId)
