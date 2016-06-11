@@ -1,6 +1,7 @@
 # evo2evo
 MODX Evolution Snippet to Display Content from a remote MODX Evolution (or Revolution) database
 
+http://www.tattoocms.it/extras/snippets/evo2evo-display-content-from-a-remote-modx.html
 
 ##Example calls
 
