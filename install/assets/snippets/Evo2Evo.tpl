@@ -39,7 +39,7 @@ if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 $db_hostname  = (isset($db_hostname)) ? $db_hostname : 'localhost';
 $db_username  = (isset($db_username)) ? $db_username : 'root';
 $db_password  = (isset($db_password)) ? $db_password : '';
-$db_database  = (isset($orderdir)) ? $orderdir : 'evolution';
+$db_database  = (isset($db_database)) ? $db_database : 'evolution';
 $evo_url = (isset($evo_url)) ? $evo_url : 'http://localhost/evolution';
 
 	/*define snippet params*/
