@@ -7,7 +7,7 @@ http://www.tattoocms.it/extras/snippets/evo2evo-display-content-from-a-remote-mo
 
 Display content from document id 32 with db info parameters
 
-```[!Evo2Evo? &id=`32` &evoTpl=`evoTpl` &db_hostname=`localhost` &db_username=`root` &db_password=`` &db_database=`evolution`!]```
+```[!Evo2Evo? &id=`32` &evoTpl=`evoTpl` &evo_url=`http://yourmodxsite.com` &db_hostname=`localhost` &db_username=`root` &db_password=`` &db_database=`evolution`!]```
 
 Display content from document id 32 using db info hardcoded in snippet code
 
