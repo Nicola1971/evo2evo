@@ -1,5 +1,5 @@
 # evo2evo
-MODX Evolution Snippet to Display Content from a remote MODX Evolution (or Revolution)
+MODX Evolution Snippet to Display Content from a remote MODX Evolution (or Revolution) database
 
 
 ##Example calls
